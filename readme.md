@@ -1,10 +1,10 @@
-# KNUST Scantron Marker
+# Scantron Marker
 
 ## Overview
-This Python application fulfills the requirements for the CE 257 Computing Project to develop an application for marking Scantron/Scannable sheets. The program processes images of scannable sheets, identifies marked answers, compares them against an answer key and generates performance reports.
+This Python application is an application for marking Scantron/Scannable sheets. The program processes images of scannable sheets, identifies marked answers, compares them against an answer key and generates performance reports.
 
 ## Features
-- Processes images of KNUST scannable sheets
+- Processes images of scannable sheets
 - Detects marked bubbles using computer vision techniques
 - Maps detected marks to questions and answer options
 - Compares student answers to a predefined answer key
@@ -13,7 +13,6 @@ This Python application fulfills the requirements for the CE 257 Computing Proje
 
 ## Requirements
 - Python 3.6+
-- OpenCV (cv2)
 - NumPy
 - Matplotlib
 - Pandas
@@ -21,7 +20,7 @@ This Python application fulfills the requirements for the CE 257 Computing Proje
 
 ## Installation
 ```bash
-pip install opencv-python numpy matplotlib pandas
+pip install numpy matplotlib pandas
 ```
 
 
